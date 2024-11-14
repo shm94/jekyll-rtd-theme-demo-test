@@ -1,0 +1,33 @@
+title: geno-document
+lang: zh-cn
+description: 这里是geno 接口文档
+
+edit: true
+
+copyright:
+  revision: true
+
+addons:
+  - github
+  - gems
+  - analytics
+
+addons_commit: true
+
+theme: null
+
+# sort
+readme_index:
+  with_frontmatter: true
+
+sass:
+  style: compressed
+
+exclude:
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+  - ci.sh
+  - CODE_OF_CONDUCT.md
+  - LICENSE
+  - jekyll-rtd-theme.gemspec
